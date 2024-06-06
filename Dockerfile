@@ -1,6 +1,6 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/Astropeda/Asta-Md /root/Astropeda
+RUN git clone https://github.com/gifteddevs/Asta-Md /root/Astropeda
 
 RUN npm cache clean --force
 RUN rm -rf /root/Astropeda/node_modules
