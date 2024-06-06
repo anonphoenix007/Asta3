@@ -1,11 +1,11 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/gifteddevs/Asta-Md /root/Astropeda
+RUN git clone https://github.com/gifteddevs/Asta-Md /root/Gifted
 
 RUN npm cache clean --force
-RUN rm -rf /root/Astropeda/node_modules
+RUN rm -rf /root/Gifted/node_modules
 
-WORKDIR /root/Astropeda
+WORKDIR /root/Gifted
 
 RUN npm install
 
