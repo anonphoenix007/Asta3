@@ -1,6 +1,6 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/gifteddevs/Asta-Md /root/Gifted
+RUN git clone https://github.com/anonphoenix007/Asta3 /root/Gifted
 
 RUN npm cache clean --force
 RUN rm -rf /root/Gifted/node_modules
