@@ -96,6 +96,7 @@
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
+      "required": false,
       "value": ""
     },
     "OPENAI_API_KEY": {
